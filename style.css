@@ -1,6 +1,56 @@
-.h3 {
-    font-family: "Bowlby One SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  background-color: #b3d0c6;
+  color: #1b4543;
+}
+h1 {
+    font-family: "Bowlby One", sans-serif;
+    font-size: 11vh;
+    float: right;
+    margin: 0;
+    padding: 0 2vw 0 2vw;
+    text-align: center;
+}
+h3 {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1vh 1vw 1vh 1vw; /*top right bottom left*/
+}
+img {
+  float: left;
+  width: 45vw;
+  display: inline;
+  padding: 1vw; 
+}
+iframe {
+  width: 70vw;
+  height: 70vh;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  display: block;
+}
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4vh 0;
+}
+#footer {
+  display: flex;
+  height: 10vh;
+  background-color: #1b4543; /*#f0f0f0;*/
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+}
