@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 html, body {
-  background-color: #b3d0c6;
-  color: #1b4543;
+  background-color: #ffffff; /*#b3d0c6;*/
+  background: linear-gradient(0.95turn, #b31942, #ffffff, #0a3161);
+  color: #0A3161;/*#1b4543;*/
 }
 h1 {
     font-family: "Bowlby One", sans-serif;
@@ -15,7 +16,19 @@ h1 {
     padding: 0 2vw 0 2vw;
     text-align: center;
 }
+h2 {
+  font-family: "Bona Nova", serif;
+  font-weight: 700;
+  font-style: bold;
+  padding: 3vh 1vw 1vh 1vw; /*top right bottom left*/
+}
 h3 {
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1vh 1vw 3vh 1vw; /*top right bottom left*/
+}
+h4 {
   font-family: "Bona Nova", serif;
   font-weight: 400;
   font-style: normal;
@@ -39,6 +52,11 @@ iframe {
 #content {
   display: block;
 }
+#evidence {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+}
 #video {
   display: flex;
   justify-content: center;
@@ -48,7 +66,7 @@ iframe {
 #footer {
   display: flex;
   height: 10vh;
-  background-color: #1b4543; /*#f0f0f0;*/
+  background-color: #1a4f91; /*#1b4543; #f0f0f0;*/
   color: #ffffff;
   justify-content: center;
   align-items: center;
