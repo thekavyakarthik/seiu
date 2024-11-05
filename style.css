@@ -5,12 +5,12 @@
 }
 html, body {
   background-color: #ffffff; /*#b3d0c6;*/
-  background: linear-gradient(0.95turn, #b31942, #ffffff, #0a3161);
+  background: linear-gradient(0.95turn, #b31942, #ffffff, #0a3161); /*b31942*/
   color: #0A3161;/*#1b4543;*/
 }
 h1 {
     font-family: "Bowlby One", sans-serif;
-    font-size: 11vh;
+    font-size: 10vh;
     float: right;
     margin: 0;
     padding: 0 2vw 0 2vw;
